@@ -109,3 +109,45 @@ hr{
 
 }
 
+.table-rigth-element{
+    color:$text-color1;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.table-left-element{
+    color:$title-darkred-color;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.table-main{
+    border-collapse: collapse;
+    display: grid;
+    gap:2rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-left: 25%;
+   
+
+    tr{
+        border-bottom: 1px solid $bold-text-color;
+        td{
+            width: 100%;
+        }
+    }
+}
+
+.nutrition-container{
+   display: grid;
+   grid-template-rows: auto 1fr auto;
+   
+   
+    h2{
+        align-self: flex-start;
+        margin-left: 2rem;
+    }
+}

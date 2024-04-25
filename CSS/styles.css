@@ -90,4 +90,43 @@ hr {
   opacity: 0.5;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.table-rigth-element {
+  color: #888584;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.table-left-element {
+  color: #653048;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.table-main {
+  border-collapse: collapse;
+  display: grid;
+  gap: 2rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin-left: 25%;
+}
+.table-main tr {
+  border-bottom: 1px solid #7b7776;
+}
+.table-main tr td {
+  width: 100%;
+}
+
+.nutrition-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.nutrition-container h2 {
+  align-self: flex-start;
+  margin-left: 2rem;
 }/*# sourceMappingURL=styles.css.map */
