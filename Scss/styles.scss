@@ -7,6 +7,7 @@ $preparation-bg-color:#fff7fc;
 $bold-text-color: #7b7776;
 $text-color1: #888584;
 $bold-text-color-darker:#7b5249;
+$body-color-desktop:#f3e5d8;
 $font-stack: "Poppins", sans-serif;
 $Xl-font-size: 2.5rem;
 $lg-font-size: 2rem;
@@ -28,6 +29,12 @@ html{
     width: 100%;
     height: 50%;
 }
+
+.main-container{
+    background-color: $preparation-bg-color;
+}
+
+
 .title-1{
     font-size: $Xl-font-size;
     text-align: center;
@@ -131,6 +138,7 @@ hr{
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     margin-left: 25%;
+    margin-top: 2rem;
    
 
     tr{
@@ -149,5 +157,24 @@ hr{
     h2{
         align-self: flex-start;
         margin-left: 2rem;
+    }
+}
+
+@media (min-width:900px){
+    .main-container{
+        width: 50%;
+        height: 100vh;
+        height: inherit;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 50px;
+    }
+    body{
+        background-color: $body-color-desktop;
     }
 }

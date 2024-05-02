@@ -16,6 +16,10 @@ html {
   height: 50%;
 }
 
+.main-container {
+  background-color: #fff7fc;
+}
+
 .title-1 {
   font-size: 2.5rem;
   text-align: center;
@@ -114,6 +118,7 @@ hr {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   margin-left: 25%;
+  margin-top: 2rem;
 }
 .table-main tr {
   border-bottom: 1px solid #7b7776;
@@ -129,4 +134,23 @@ hr {
 .nutrition-container h2 {
   align-self: flex-start;
   margin-left: 2rem;
+}
+
+@media (min-width: 900px) {
+  .main-container {
+    width: 50%;
+    height: 100vh;
+    height: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+  }
+  body {
+    background-color: #f3e5d8;
+  }
 }/*# sourceMappingURL=styles.css.map */
